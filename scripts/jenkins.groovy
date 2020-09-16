@@ -1,6 +1,6 @@
 pipeline
 {
-   agent { label 'packages' }
+   agent { label 'packaging-test' }
 
    options
    {
