@@ -11,7 +11,7 @@
 default:
   version_major: '4.0'
   version: 4.0.0
-  suffix: -rc.1
+  suffix: ''
   revision: 1.rc.1
   homepage: https://www.graylog.org/
   maintainer: Graylog, Inc. <hello@graylog.org>
