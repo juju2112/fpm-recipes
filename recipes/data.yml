@@ -20,15 +20,15 @@ default:
 
 graylog-server:
   source: https://packages.graylog2.org/releases/graylog/graylog-#{version}#{suffix}.tgz
-  sha256: 9b4d3cc00f72d467140879f31b94dd0ce56b889b9c7198819dc962a9e3e4d9c9
+  sha256: d060db5d412817e1053796527c45f760f12f1ad020b8b14a7d4b0c1b00543370
 
 graylog-enterprise-plugins:
   source: https://packages.graylog2.org/releases/graylog-enterprise/graylog-enterprise-plugins-#{version}#{suffix}.tgz
-  sha256: 412ee5f9f7b6cc1e040a702116baddbc452b51ff3835439115bf9207c51857a7
+  sha256: 9b4e13d72f826ae5a4173b7e3a1575297c8538c521394ae1aa3866702551f55b
 
 graylog-integrations-plugins:
   source: https://packages.graylog2.org/releases/graylog-integrations/graylog-integrations-plugins-#{version}#{suffix}.tgz
-  sha256: 9e2fe6e1acce18ea0b9341466ffc718333eba9649e5c6842846b9dc7a01bc4a0
+  sha256: b101d03fc05073909e36b0b9dd2e3cbe5c7cda9970fcbb7b4fa8eb3dc83a866b
 
 graylog-enterprise-integrations-plugins:
   source: https://packages.graylog2.org/releases/graylog-enterprise-integrations/graylog-enterprise-integrations-plugins-#{version}#{suffix}.tgz
