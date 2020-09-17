@@ -23,7 +23,7 @@ pipeline
          {
             script
             {
-              checkout([$class: 'GitSCM', branches: [[name: "refs/heads/${params.BRANCH}"]], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'github-app', url: 'https://github.com/Graylog2/fpm-recipes.git']]])
+              checkout([$class: 'GitSCM', branches: [[name: "refs/heads/${params.BRANCH}"]], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'github-app', url: 'https://github.com/juju2112/fpm-recipes.git']]])
             }
 
             sh "gl2-build-pkg debian ${params.VERSION}"
